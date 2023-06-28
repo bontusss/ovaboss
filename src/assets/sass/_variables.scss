@@ -1,0 +1,144 @@
+/*// Body*/
+$body-bg: #f5f5f5; /*$body-bg: #f8fafc;*/
+
+/*// Typography*/
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+/*Project Color pallet initialization*/
+$primary: #ffd700;
+$primary-hover: #e8c000;
+$accent-dark-color: #e8c000;
+$accent-color: #ffd700;
+$accent-light-color: rgba(255, 204, 0, 0.8);
+$accent-shadow-color: rgba(255, 204, 0, 0.25);
+$primary-color: #D9D9D9;
+$transparent-color: rgba(255, 255, 255, 0);
+$main-bg-color: #f5f5f5;
+$footer-bg-color: #16161a;
+
+$color-primary: #52C11F;
+$color-secondary: #0B44EF;
+$color-tertiary: #FF006A;
+$color-tetrary: #991BE2;
+
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$youtube: #ff0000;
+$instagrammagenta: #c32aa3;
+$instagramblue: #4c5fd7;
+$instagrampurple: #7232bd;
+$instagramorange: #f46f30;
+$instagramyellow: #ffdc7d;
+$googleplus: #db4437;
+$linkedin: #007bb5;
+$vimeoblue: #1ab7ea;
+$tumblr: #2c4762;
+$snapchat: #fffc00;
+$whatsappgreen: #25d366;
+$whatsappteal1: #075e54;
+$whatsappteal2: #128c7e;
+$apple: #a6b1b7;
+$amazon: #ff9900;
+$microsoftred: #f35022;
+$microsoftgreen: #80bb03;
+$microsoftblue: #03a5f0;
+$microsoftyellow: #ffb903;
+$periscope: #40a4c4;
+$foursquarepink: #f94877;
+$foursquarenavy: #073282;
+$foursquareblue: #2d5be3;
+$swarm: #ffa633;
+$medium: #02b875;
+$skypeblue: #00aff0;
+$skypedkblue: #0078d7;
+$android: #a4c639;
+$stumbleupon: #e94826;
+$flickrpink: #f40083;
+$flickrblue: #006add;
+$yahoo: #430297;
+$soundcloud: #ff5500;
+$spotifygreen: #1ed760;
+$spotifydarkgreen: #1db954;
+$dribbble: #ea4c89;
+
+
+
+//Media Query breakpoints
+$fourK: 2560px;
+$laptopsL: 1440px;
+$desktops: 1281px;
+$laptops: 1024px;
+$tabletsL: 813px;
+$tablets: 768px;
+$mobileL: 425px;
+$mobiles: 360px;
+
+$gray-lighter: #E6EAEF;
+$gray-light: #CED0DB;
+$gray: #6D6F7F;
+$gray-dark: #3F4351;
+$gray-darker: #252730;
+
+$font-size: 16px;
+$font-family: 'Booster Next FY', 'Avenir Next', Avenir, sans-serif;
+$font-family-heading: $font-family;
+$line-height: 1.42;
+$font-primary: 'Open Sans',Arial, sans-serif;
+$font-secondary: 'Lora', Georgia, serif;
+$font-tertiary: 'Great Vibes', cursive;
+
+// Easings
+$ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+$ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$ease-out-quint: cubic-bezier(.23, 1, .32, 1);
+
+
+/*Project Dimensions initialization*/
+$main-slider-width: 712px;
+$main-slider-height: 400px;
+$cat-li-height: 40px;
+$header-height: 80px;
+$main-menu-height: 40px;
+$search-border-radius: 20px;
+$search-field-height: 45px;
+$header-main-font-size: 10px; /* Default 36px */
+$cat-menu-width: 255px;
+$one-dimen: 1.5rem;
+$two-dimen: 2rem;
+$three-dimen: 3rem;
+$four-dimen: 4rem;
+$five-dimen: 5rem;
+$dimen-margin: 10px;
+$dimen-padding: 35px;
+
+$one-small-dimen: .75rem;
+$two-small-dimen: 1.2rem;
+$three-small-dimen: 2rem;
+$four-small-dimen: 3rem;
+$five-small-dimen: 4rem;
+
+//Media Query breakpoints
+$fourK: 2560px;
+$laptopsL: 1440px;
+$desktops: 1281px;
+$laptops: 1024px;
+$tabletsL: 813px;
+$tablets: 768px;
+$mobileL: 425px;
+$mobiles: 360px;
