@@ -28,8 +28,30 @@ export default (config) => {
       from: `/${pageName}`,
       to: posix.join('/', `/packages/${pageName}/index.html`)
     })
+    console.log(rewrites)
+
     return _pages
   }, {})
+
+  // const pages = {
+  //   main: {
+  //     entry: 'packages/main/src/main.js',
+  //     filename: '/main.html',
+  //     template: 'index.html',
+  //     inject: { data: { title: 'mpa-main' } }
+  //     // rewrites: rewrites.push({ from: '/main', to: posix.join('/', '/index.html') })
+  //   },
+  //   dashboard: {
+  //     entry: 'packages/dashboard/src/main.js',
+  //     filename: '/dashboard.html',
+  //     template: 'packages/dashboard/index.html',
+  //     inject: { data: { title: 'mpa-dashboard' } },
+  //     rewrites: rewrites.push({
+  //       from: '/dashboard',
+  //       to: posix.join('/', 'packages/dashboard/index.html')
+  //     })
+  //   }
+  // }
 
   return defineConfig({
     plugins: [
@@ -40,17 +62,11 @@ export default (config) => {
           rewrites
         }
       })
-    ], 
-    // resolve: {
-    //   alias: app.reduce((_paths, pathName) => {
-    //     _paths[`@${pathName}`] = resolve(__dirname, `./packages/${pathName}/src`)
-
-    //     return _paths
-    //   }, {})
-    // },
-    // test: {
-    //   globals: true,
-    //   environment: 'happy-dom'
-    // }
+    ],
+    resolve: {
+      alias: {
+        '@': resolve(__dirname, './packages')
+      }
+    }
   })
 }
